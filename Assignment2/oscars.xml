@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Movies>
+	<Movie genre="drama">
+		<Title>Million Dollar Baby</Title>
+		<Year>(2004)</Year>
+		<Length>132 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Director</Type>
+			<Winner>Clint Eastwood</Winner>
+		</Award>
+		<Award>
+			<Type>Best Actress</Type>
+			<Winner>Hillary Swank</Winner>
+		</Award>
+		<Award>
+			<Type>Best Supporting Actor</Type>
+			<Winner>Morgan Freeman</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="drama">
+		<Title>Monster's Ball</Title>
+		<Year>(2001)</Year>
+		<Length>111 minutes</Length>
+		<Award>
+			<Type>Best Actress</Type>
+			<Winner>Halle Berry</Winner>
+		</Award>
+		<Award>
+			<Type>Best Screenplay</Type>
+			<Winner>Milo Addica</Winner>
+			<Winner>Will Rokos</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="biography">
+		<Title>Erin Brockovich</Title>
+		<Year>(2000)</Year>
+		<Length>130 minutes</Length>
+		<Award>
+			<Type>Best Actress</Type>
+			<Winner>Julia Roberts</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="romance">
+		<Title>Shakespeare in Love</Title>
+		<Year>(1998)</Year>
+		<Length>123 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Actress</Type>
+			<Winner>Gwyneth Paltrow</Winner>
+		</Award>
+		<Award>
+			<Type>Best Supporting Actress</Type>
+			<Winner>Judi Dench</Winner>
+		</Award>
+		<Award>
+			<Type>Best Screenplay</Type>
+			<Winner>Marc Norman</Winner>
+			<Winner>Tom Stoppard</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="comedy">
+		<Title>Forrest Gump</Title>
+		<Year>(1994)</Year>
+		<Length>142 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Director</Type>
+			<Winner>Robert Zemeckis</Winner>
+		</Award>
+		<Award>
+			<Type>Best Actor</Type>
+			<Winner>Tom Hanks</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="biography">
+		<Title>Schindler's List</Title>
+		<Year>(1993)</Year>
+		<Length>195 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Director</Type>
+			<Winner>Steven Spielberg</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="action">
+		<Title>Thelma &amp; Louise</Title>
+		<Year>(1991)</Year>
+		<Length>129 minutes</Length>
+		<Award>
+			<Type>Best Screenplay</Type>
+			<Winner>Callie Khouri</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="drama">
+		<Title>Sophie&apos;s Choice</Title>
+		<Year>(1982)</Year>
+		<Length>150 minutes</Length>
+		<Award>
+			<Type>Best Actress</Type>
+			<Winner>Meryl Streep</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="fantasy">
+		<Title>Fanny &amp; Alexander</Title>
+		<Year>(1982)</Year>
+		<Length>188 minutes</Length>
+		<Award>
+			<Type>Best Foreign Language Film</Type>
+		</Award>
+	</Movie>
+	<Movie genre="drama">
+		<Title>Kramer vs. Kramer</Title>
+		<Year>(1979)</Year>
+		<Length>105 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Director</Type>
+			<Winner>Robert Benton</Winner>
+		</Award>
+		<Award>
+			<Type>Best Actor</Type>
+			<Winner>Dustin Hoffman</Winner>
+		</Award>
+		<Award>
+			<Type>Best Supporting Actress</Type>
+			<Winner>Meryl Streep</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="drama">
+		<Title>The Godfather</Title>
+		<Year>(1972)</Year>
+		<Length>175 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Actor</Type>
+			<Winner>Marlon Brando</Winner>
+		</Award>
+	</Movie>
+	<Movie genre="classic">
+		<Title>Casablanca</Title>
+		<Year>(1942)</Year>
+		<Length>102 minutes</Length>
+		<Award>
+			<Type>Best Picture</Type>
+		</Award>
+		<Award>
+			<Type>Best Director</Type>
+			<Winner>Michael Curtiz</Winner>
+		</Award>
+		<Award>
+			<Type>Best Actor</Type>
+			<Winner>Humphrey Bogart</Winner>
+		</Award>
+		<Award>
+			<Type>Best Supporting Actor</Type>
+			<Winner>Claude Raines</Winner>
+		</Award>
+	</Movie>
+</Movies>
+<!--Make sure to replace special characters like apostrophes (single quotes) and ampersands with the appropriate character reference or entity reference.
+-->

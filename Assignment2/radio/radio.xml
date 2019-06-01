@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<radio>
+	<station name="Cinematic">
+		<song>
+			<title>The Space</title>
+			<composer>Unity</composer>
+			<file>The Space (Looping Middle).mp3</file>
+		</song>
+		<song>
+			<title>Majestic Hills</title>
+			<composer>Kevin MacLeod</composer>
+			<file>Majestic Hills.mp3</file>
+		</song>
+		<song>
+			<title>Rain</title>
+			<composer>Series 1000 General</composer>
+			<file>Rain.mp3</file>
+		</song>
+	</station>
+	<station name="Podcast">
+		<song>
+			<title>Dot Net Rocks #1637</title>
+			<composer>.NET Rocks</composer>
+			<file>https://www.podetize.com/statsapi/www.podetize.com/wp-content/uploads/fileuploads/10-acd3f501b55d8a1eca54de5027f540dd/05/2019/7b7e7902d719cee2867c02c2854afd36.mp3</file>
+		</song>
+		<song>
+			<title>Windows Weekly #623</title>
+			<composer>Paul Thurott</composer>
+			<file>https://media.blubrry.com/windows_weekly_mp3/www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/ww/ww0623/ww0623.mp3</file>
+		</song>
+		<song>
+			<title>This Week in Tech #720</title>
+			<composer>Leo Laporte</composer>
+			<file>http://www.podtrac.com/pts/redirect.mp3/cdn.twit.tv/audio/twit/twit0720/twit0720.mp3</file>
+		</song>
+	</station>
+	<!-- Songs I own but cannot upload to server for copyright reasons -->
+<!--	<station name="Rock">
+		<song>
+			<title>You Got Lucky</title>
+			<composer>Tom Petty</composer>
+			<file>You Got Lucky.mp3</file>
+		</song>
+		<song>
+			<title>I Won&apos;t Back Down</title>
+			<composer>Tom Petty</composer>
+			<file>I Won&apos;t Back Down.mp3</file>
+		</song>
+		<song>
+			<title>Flagpole Sitta</title>
+			<composer>Harvey Danger</composer>
+			<file>Flagpole Sitta.mp3</file>
+		</song>
+	</station>
+	<station name="Rap">
+		<song>
+			<title>Ice Ice Baby</title>
+			<composer>Vanilla Ice</composer>
+			<file>Ice Ice Baby.mp3</file>
+		</song>
+		<song>
+			<title>Good Vibrations</title>
+			<composer>Marky Mark</composer>
+			<file>Good Vibrations.mp3</file>
+		</song>
+	</station>-->
+</radio>

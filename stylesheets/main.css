@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-color: #eff4f4;
+    color: black;
+    font-family: Tahoma;
+}
+table, th, td {
+  border: 1px solid black;
+}
+td {
+  padding: 5px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 10px;
+    border-style: double;
+    border-width: 7px;
+    background: #CCE2FC;
+}
+h3 {
+    color: darkblue;
+	text-align: center
+}
+#maintable {
+    width: 85%;
+    /* Margin-left/right on auto will center the table in the page */
+    margin-left: auto;
+    margin-right: auto;
+}
+#maintablebody {
+    display: normal;
+    background-color: #d5d4ff;
+}
+table#maintable th {
+  background-color: #9EC5F3;
+} 
