@@ -1,0 +1,25 @@
+<!ELEMENT dvdlibrary (dvd+)>
+
+<!ELEMENT dvd (title, description, year, company, characters, bonus, purchased)>
+<!ATTLIST dvd isbn CDATA #REQUIRED>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT company (#PCDATA)>
+
+<!ELEMENT characters (character+)>
+
+<!ELEMENT bonus (feature+)>
+<!ATTLIST bonus num CDATA #REQUIRED>
+
+<!ELEMENT purchased (price, location, date)>
+<!ATTLIST purchased from (mom | dad | sister | grandpa | grandma) #IMPLIED>
+
+<!ELEMENT character (#PCDATA)>
+
+<!ELEMENT feature (#PCDATA)>
+
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
