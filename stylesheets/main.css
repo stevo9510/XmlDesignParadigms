@@ -24,6 +24,10 @@ h3 {
     color: darkblue;
 	text-align: center
 }
+.complete {
+	color: darkblue;
+	font-weight: bold;
+}
 #maintable {
     width: 85%;
     /* Margin-left/right on auto will center the table in the page */

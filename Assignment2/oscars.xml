@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Steven Anderson
+	oscars.xml
+	6/5/2019
+-->
 <Movies>
 	<Movie genre="drama">
 		<Title>Million Dollar Baby</Title>
@@ -171,5 +176,4 @@
 		</Award>
 	</Movie>
 </Movies>
-<!--Make sure to replace special characters like apostrophes (single quotes) and ampersands with the appropriate character reference or entity reference.
--->
+
