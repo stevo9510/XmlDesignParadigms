@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE League
+[
+	<!ELEMENT League (Team+)>
+	<!ATTLIST League LName ID #REQUIRED>
+
+	<!ELEMENT Team (Team_Name, City, Logo?, Players+)>
+	<!ELEMENT Team_Name (#PCDATA)>
+	<!ELEMENT City (#PCDATA)>
+	
+	<!ELEMENT Logo EMPTY>
+	<!ATTLIST Logo Source CDATA #REQUIRED>
+	
+	<!ELEMENT Players (Player+)>
+	
+	<!ELEMENT Player (#PCDATA)>
+	<!ATTLIST Player Position (PG | C | PF | SG | SF) #REQUIRED>
+	<!ATTLIST Player PPG CDATA #IMPLIED>
+	<!ATTLIST Player RPG CDATA #IMPLIED>
+	<!ATTLIST Player Assists CDATA #IMPLIED>
+]>
+<League LName="EDL">
+	<Team>
+		<Team_Name>Heat</Team_Name>
+		<City>Miami</City>
+		<Logo Source="miami.png"></Logo>
+		<Players>
+			<!-- 5 players-->
+			<!--Position required -->
+			<!--PPG RPG and Assists are all optional-->
+			<Player Position="PG" PPG="25" RPG="8" Assists="6">Dwyane Wade</Player>
+			<Player Position="C" PPG="17" RPG="12" Assists="3">Hassan Whiteside</Player>
+			<Player Position="PG">Goran Dragic</Player>
+			<Player Position="PF" RPG="4">Udonis Haslem</Player>
+			<Player Position="SF" Assists="7">James Johnson</Player>
+		</Players>
+	</Team>
+	<Team>
+		<Team_Name>Warriors</Team_Name>
+		<City>Golden State</City>
+		<Players>
+			<!-- 5 players-->
+			<!--Position required -->
+			<!--PPG RPG and Assists are all optional-->
+			<Player Position="SF" PPG="25">Kevin Durant</Player>
+			<Player Position="PG" PPG="23" RPG="5">Stephen Curry</Player>
+			<Player Position="SF" PPG="21" Assists="6">Klay Thompson</Player>
+			<Player Position="PF" RPG="4">DeMarcus Cousins</Player>
+			<Player Position="PF" RPG="12">Draymond Green</Player>
+		</Players>
+	</Team>
+		
+</League>
