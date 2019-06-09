@@ -26,7 +26,7 @@
 		</Award>
 	</Movie>
 	<Movie genre="drama">
-		<Title>Monster's Ball</Title>
+		<Title>Monster&apos;s Ball</Title>
 		<Year>(2001)</Year>
 		<Length>111 minutes</Length>
 		<Award>
@@ -35,8 +35,7 @@
 		</Award>
 		<Award>
 			<Type>Best Screenplay</Type>
-			<Winner>Milo Addica</Winner>
-			<Winner>Will Rokos</Winner>
+			<Winner>Milo Addica &amp; Will Rokos</Winner>
 		</Award>
 	</Movie>
 	<Movie genre="biography">
@@ -65,8 +64,7 @@
 		</Award>
 		<Award>
 			<Type>Best Screenplay</Type>
-			<Winner>Marc Norman</Winner>
-			<Winner>Tom Stoppard</Winner>
+			<Winner>Marc Norman &amp; Tom Stoppard</Winner>
 		</Award>
 	</Movie>
 	<Movie genre="comedy">
@@ -86,7 +84,7 @@
 		</Award>
 	</Movie>
 	<Movie genre="biography">
-		<Title>Schindler's List</Title>
+		<Title>Schindler&apos;s List</Title>
 		<Year>(1993)</Year>
 		<Length>195 minutes</Length>
 		<Award>
