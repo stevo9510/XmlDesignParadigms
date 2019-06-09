@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<!DOCTYPE dvdlibrary SYSTEM "dvdlibrary.dtd">
+<dvdlibrary>
+	<dvd isbn="978-0-505-17349-0">
+		<title>Casino Royale</title>
+		<description>
+		<![CDATA[
+		Armed with a license to kill, Secret Agent James Bond sets out on his first mission as 007, and must defeat a private banker to terrorists in a high stakes game of poker at Casino Royale, Montenegro, but things are not what they seem.
+		]]>		
+		</description>
+		<year>2006</year>
+		<company>Columbia Pictures</company>
+		<characters>
+			<character>James Bond</character>
+			<character>Le Chiffre</character>
+			<character>Vesper Lynd</character>
+		</characters>
+		<bonus num="1">
+			<feature>Unseen Footage</feature>
+		</bonus>
+		<purchased>
+			<price>$10.00</price>
+			<location>Walmart</location>
+			<date>05/01/2008</date>
+		</purchased>
+	</dvd>
+	<dvd isbn="978-0-571-12549-0">
+		<title>Superbad</title>
+		<description>
+		<![CDATA[
+Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.
+		]]>		
+		</description>
+		<year>2007</year>
+		<company>The Apatow Company</company>
+		<characters>
+			<character>Seth</character>
+			<character>Evan</character>
+			<character>Fogel / McLovin</character>
+			<character>Office Slater</character>
+			<character>Office Michaels</character>
+			<character>Jules</character>
+		</characters>
+		<bonus num="5">
+			<feature>Deleted Scenes</feature>
+			<feature>Audio Commentary</feature>
+			<feature>Extended Scenes</feature>
+			<feature>Making-Of</feature>
+			<feature>Cast Audition Footage</feature>
+		</bonus>
+		<purchased from="dad">
+			<price>$9.00</price>
+			<location>Best Buy</location>
+			<date>11/15/2009</date>
+		</purchased>
+	</dvd>
+	<dvd isbn="978-1-332-82211-0">
+		<title>Goodfellas</title>
+		<description>
+		<![CDATA[
+The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito in the Italian-American crime syndicate.
+		]]>		
+		</description>
+		<year>1990</year>
+		<company>Warner Bros</company>
+		<characters>
+			<character>Henry Hill</character>
+			<character>James Conway</character>
+			<character>Tommy DeVito</character>
+			<character>Karen Hill</character>
+		</characters>
+		<bonus num="2">
+			<feature>Deleted Scenes</feature>
+			<feature>Audio Commentary</feature>
+		</bonus>
+		<purchased from="grandpa">
+			<price>$5.00</price>
+			<location>Target</location>
+			<date>08/02/2004</date>
+		</purchased>
+	</dvd>
+</dvdlibrary>
