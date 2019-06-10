@@ -1,0 +1,15 @@
+
+
+<inventory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="music.xsd">
+   <album albumID="JW1234" category="Bebop">
+		<title>Foo</title>
+		<artist>Bar</artist>
+		<artist>Baz</artist>
+		<tracks length="12:00:22">
+			<track length="33:22:11">First</track>
+			<track length="33:22:11">Second</track>
+			<track length="33:22:11">Third</track>
+		</tracks>
+	</album>
+</inventory>

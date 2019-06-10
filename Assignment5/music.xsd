@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:simpleType name="albumIdType">
+      <xs:restriction base="xs:ID">
+         <xs:pattern value="JW\d{4}" />
+      </xs:restriction>
+   </xs:simpleType>
+   
+   <xs:simpleType name="categoryType">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="New Orleans" />
+         <xs:enumeration value="Swing" />
+         <xs:enumeration value="Modern" />
+         <xs:enumeration value="Bebop" />
+      </xs:restriction>
+   </xs:simpleType>
+
+   <xs:simpleType name="lengthType">
+      <xs:restriction base="xs:string">
+         <xs:pattern value="\d{2}:\d{2}:\d{2}" />
+      </xs:restriction>
+   </xs:simpleType>
+
+	<xs:attribute name="albumID" type="albumIdType"/>
+	<xs:attribute name="category" type="categoryType"/>
+
+	<xs:element name="inventory">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="album" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="album">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="artist" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="tracks"/>
+			</xs:sequence>
+			<xs:attribute ref="albumID" use="required"/>
+			<xs:attribute ref="category" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="title" type="xs:string"/>
+	<xs:element name="artist" type="xs:string"/>
+	<xs:attribute name="length" type="lengthType"/>
+
+	<xs:element name="tracks">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="track" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute ref="length" use="optional"/>
+		</xs:complexType>
+	</xs:element>	
+		
+	<xs:element name="track">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute ref="length" use="optional"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
