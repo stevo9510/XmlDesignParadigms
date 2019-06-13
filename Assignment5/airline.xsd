@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:simpleType name="gufiType">
+		<xs:restriction base="xs:ID">
+			<xs:pattern value="[A-Za-z0-9]{10}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="airportCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z]{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="aircraftCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z][A-Za-z0-9]{1,3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="aircraftAddressType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-F0-9]{6}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="aircraftSizeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="H"/>
+			<xs:enumeration value="J"/>
+			<xs:enumeration value=""/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="altitudeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{2,3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="beaconCodeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[0-7]{4}|FFFF"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:element name="comments">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="3000"/>
+				<xs:whiteSpace value="preserve"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:simpleType name="latitudeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{4}[NS]?"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="longitudeType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{4}[EW]?"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	
+	<xs:element name="personOnBoard">
+	  <xs:simpleType>
+		<xs:restriction base="xs:integer">
+		  <xs:minInclusive value="1"/>
+		  <xs:maxInclusive value="999"/>
+		</xs:restriction>
+	  </xs:simpleType>
+	</xs:element>
+	
+	<xs:simpleType name="segmentType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[A-Za-z\d \+ \* \. ' /]{0,1000}"/>
+		</xs:restriction>
+	</xs:simpleType>	
+	
+	<xs:simpleType name="categoryType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="L"/>
+			<xs:enumeration value="M"/>
+			<xs:enumeration value="H"/>
+			<xs:enumeration value="J"/>
+		</xs:restriction>
+	</xs:simpleType>
+		
+	<xs:element name="Message">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="GUFI" type="gufiType"/>
+				<xs:element name="sourceAirport" type="airportCodeType"/>
+				<xs:element name="destinationAirport" type="airportCodeType"/>
+				<xs:element name="departureTime" type="xs:dateTime"/>
+				<xs:element name="arrivalTime" type="xs:dateTime"/>
+				<xs:element name="aircraftType" type="aircraftCodeType"/>
+				<xs:element name="aircraftAddress" type="aircraftAddressType"/>
+				<xs:element name="aircraftSize" type="aircraftSizeType"/>
+				<xs:element name="altitude" type="altitudeType"/>
+				<xs:element name="beaconCode" type="beaconCodeType"/>
+				<xs:element ref="comments"/>
+				<xs:element name="latitude" type="latitudeType"/>
+				<xs:element name="longitude" type="longitudeType"/>
+				<xs:element ref="personOnBoard"/>
+				<xs:element name="segment" type="segmentType"/>
+				<xs:element name="category" type="categoryType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
