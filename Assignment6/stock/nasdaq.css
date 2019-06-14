@@ -1,0 +1,23 @@
+@namespace html url(http://www.w3.org/1999/xhtml);
+*           {display: block}
+* {font-family: Tahoma, Geneva, sans-serif; font-size: 10pt; }
+date        {position: absolute; left: 620px; font-size: 8pt}
+time        {position: absolute; left: 620px; font-size: 8pt} 
+heading 	{font-size: 24pt; text-align: center; font-weight: bold; position: relative}
+subHeading 	{font-size: 12pt; text-align: center; font-weight: bold; position: relative}
+quotes		{ width: 750px;  }
+titles 		{ display: table-header-group; text-decoration: underline; font-weight: bold;	}
+column		{ display: table-cell; padding-left: 30px; }
+column[id="c1"] { text-align: left; }
+column[id="c2"] { text-align: left; }
+column[id="c3"] { text-align: right; }
+column[id="c4"] { text-align: right; }
+column[id="c5"] { text-align: right; }
+column[id="c6"] { text-align: right; }
+
+stocks		{ display: table-row-group;  }
+stock		{ display: table-row; border-bottom: solid; border-color: black;   }
+stock[class="down"] { color: red; background-image: url(down.gif); background-repeat: no-repeat; }
+stock[class="up"] { color: green; background-image: url(up.gif); background-repeat: no-repeat; }
+symbol, company { padding-left: 30px; display: table-cell; text-align: left; border-width: 1px; border-bottom: solid; border-color: black}
+lastSale, netChange, pChange, volume { padding-left: 30px; text-align: right; display: table-cell; border-width: 1px; border-bottom: solid; border-color: black}
