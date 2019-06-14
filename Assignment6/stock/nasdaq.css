@@ -1,17 +1,19 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
-*           		{ display: block; font-family: Tahoma, Geneva, sans-serif; font-size: 10pt; }
-date        		{ position: absolute; top: 25px; left: 500px; font-size: 8pt }
-time        		{ position: absolute; top: 25px; left: 560px; font-size: 8pt }
-quotes				{ display: table; width: 700px; margin-top: 50px; margin-left: 15px; margin-bottom: 25px; }
+/* */
+*           		{ display: block; font-family: Arial; font-size: 10pt; }
+date        		{ position: absolute; top: 20px; left: 565px; font-size: 8pt }
+time        		{ position: absolute; top: 20px; left: 625px; font-size: 8pt }
+quotes				{ display: table; width: 780px; margin-top: 40px; margin-left: 15px; margin-bottom: 25px; }
 heading 			{ display: table-caption; font-size: 24pt; text-align: center; font-weight: bold; }
 subHeading 			{ display: table-caption; font-size: 12pt; text-align: center; font-weight: bold; margin-bottom: 5px; }
 titles 				{ display: table-header-group; text-decoration: underline; font-weight: bold; }
-column				{ display: table-cell; padding-left: 25px; text-align: right; }
-column[id="c1"] 	{ text-align: left; padding-left: 13px; }
+column				{ display: table-cell; font-weight: bold; font-size: 8pt; font-family: Courier; padding-left: 25px; text-align: right; padding-bottom: 3px; }
+column[id="c1"] 	{ text-align: left; padding-left: 10px; }
 column[id="c2"] 	{ text-align: left; }
 stocks				{ display: table-row-group; }
 stock				{ display: table-row; border-bottom: solid; border-color: black;   }
 stock[class="down"] { color: red; background-image: url(down.gif); background-repeat: no-repeat; }
 stock[class="up"] 	{ color: green; background-image: url(up.gif); background-repeat: no-repeat; }
-stock > * 			{ padding-left: 25px; display: table-cell; text-align: left; border-width: 1px; border-bottom: solid; border-color: black; text-align: right; }
+stock > * 			{ padding-left: 25px; font-family: Courier; display: table-cell; text-align: left; border-width: 1px; border-bottom: solid; border-color: black; text-align: right; }
+symbol				{ padding-left: 40px; }
 symbol, company 	{ text-align: left; }
