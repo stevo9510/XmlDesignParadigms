@@ -1,19 +1,43 @@
+/* Steven Anderson - Assignment 6 - CSS */
 @namespace html url(http://www.w3.org/1999/xhtml);
-/* */
-*           		{ display: block; font-family: Arial; font-size: 10pt; }
-date        		{ position: absolute; top: 20px; left: 565px; font-size: 8pt }
+
+/* Make everything Arial font by default, with a default font-size */
+*           		{ font-family: Arial; font-size: 10pt; }
+
+/* Position the date and time in absolute position (outside of the table) as a header near the top of the page 
+	These are the two outliers that don't fit the bill to use in the tabular report. */
+date        		{ position: absolute; top: 20px; left: 570px; font-size: 8pt }
 time        		{ position: absolute; top: 20px; left: 625px; font-size: 8pt }
+
+/* Make the root of the xml a table to display the report */
 quotes				{ display: table; width: 780px; margin-top: 40px; margin-left: 15px; margin-bottom: 25px; }
+
+/* Treat the heading and subheading as captions for the table */
 heading 			{ display: table-caption; font-size: 24pt; text-align: center; font-weight: bold; }
-subHeading 			{ display: table-caption; font-size: 12pt; text-align: center; font-weight: bold; margin-bottom: 5px; }
+/* Give a bit of bottom margin from the column headers */
+subHeading 			{ display: table-caption; font-size: 12pt; text-align: center; font-weight: bold; margin-bottom: 5px; } 
+
+/* Group the column headers together in a header group, underline/bold all headers */
 titles 				{ display: table-header-group; text-decoration: underline; font-weight: bold; }
-column				{ display: table-cell; font-weight: bold; font-size: 8pt; font-family: Courier; padding-left: 25px; text-align: right; padding-bottom: 3px; }
-column[id="c1"] 	{ text-align: left; padding-left: 10px; }
+
+/* Treat all column headers as cells (there's not a <th> equivalent to provide them).  Give them a monospaced-font, default alignment.  
+	Left padding will help space them nicely between each other */
+column				{ display: table-cell; font-size: 8pt; font-family: Courier; padding-left: 25px; text-align: right; padding-bottom: 3px; }
+/* Override the default text alignment and padding for first two columns */
+column[id="c1"] 	{ text-align: left; padding-left: 10px; } /* Padding is brought in a bit because of background image that is being shown */
 column[id="c2"] 	{ text-align: left; }
+
+/* Create rows for the stock data */
 stocks				{ display: table-row-group; }
-stock				{ display: table-row; border-bottom: solid; border-color: black;   }
+stock				{ display: table-row; }
+
+/* Place a single background image based on the stock trend (referencing css class), per row. */
 stock[class="down"] { color: red; background-image: url(down.gif); background-repeat: no-repeat; }
 stock[class="up"] 	{ color: green; background-image: url(up.gif); background-repeat: no-repeat; }
-stock > * 			{ padding-left: 25px; font-family: Courier; display: table-cell; text-align: left; border-width: 1px; border-bottom: solid; border-color: black; text-align: right; }
+
+/* For each direct descendent of stock (i.e. each column), give padding, font, display as a cell, and a bottom border on each */
+stock > * 			{ padding-left: 25px; font-family: Courier; display: table-cell; text-align: right; border-bottom: solid black; }
+/* Give additional padding for symbol column, because of background image/icon */
 symbol				{ padding-left: 40px; }
+/* Left align the text in these */
 symbol, company 	{ text-align: left; }
