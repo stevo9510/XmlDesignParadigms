@@ -1,13 +1,13 @@
 @namespace html url(http://www.w3.org/1999/xhtml);
 *           {display: block}
-* {font-family: Tahoma, Geneva, sans-serif; font-size: 10pt; }
-date        {position: absolute; left: 620px; font-size: 8pt}
-time        {position: absolute; left: 620px; font-size: 8pt} 
-heading 	{font-size: 24pt; text-align: center; font-weight: bold; position: relative}
-subHeading 	{font-size: 12pt; text-align: center; font-weight: bold; position: relative}
-quotes		{ width: 750px;  }
+* 			{font-family: Tahoma, Geneva, sans-serif; font-size: 10pt; }
+date        {position: absolute; top: 25px; left: 500px; font-size: 8pt}
+time        {position: absolute; top: 25px; left: 560px; font-size: 8pt}
+heading 	{font-size: 24pt; text-align: center; font-weight: bold; }
+subHeading 	{font-size: 12pt; text-align: center; font-weight: bold; }
+quotes		{ width: 700px; margin-top: 50px; }
 titles 		{ display: table-header-group; text-decoration: underline; font-weight: bold;	}
-column		{ display: table-cell; padding-left: 30px; }
+column		{ display: table-cell; padding-left: 30px;  }
 column[id="c1"] { text-align: left; }
 column[id="c2"] { text-align: left; }
 column[id="c3"] { text-align: right; }
