@@ -15,7 +15,7 @@ quotes				{ display: table; width: 780px; margin-top: 40px; margin-left: 15px; m
 /* Treat the heading and subheading as captions for the table */
 heading 			{ display: table-caption; font-size: 24pt; text-align: center; font-weight: bold; }
 /* Give a bit of bottom margin from the column headers */
-subHeading 			{ display: table-caption; font-size: 12pt; text-align: center; font-weight: bold; margin-bottom: 5px; } 
+subHeading 			{ display: table-caption; position: relative; font-size: 12pt; text-align: center; font-weight: bold; margin-bottom: 3px; top: -7px; } 
 
 /* Group the column headers together in a header group, underline/bold all headers */
 titles 				{ display: table-header-group; text-decoration: underline; font-weight: bold; }
