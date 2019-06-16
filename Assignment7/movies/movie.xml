@@ -1,0 +1,32 @@
+
+
+<?xml-stylesheet type="text/xsl" href="movie.xsl" ?>
+<movies>
+<movie id="m31">
+   <name>The Constant Gardener</name>
+   <description>
+      <p>This tale of political intrigue centers on Justin Quayle 	(Ralph Fiennes), a member of the British High Commission 	based in 	Africa, and his quest for truth. When his wife (Rachel Weisz, 	in an 	Oscar-winning turn for her supporting role) is murdered, 	Justin 	begins his own international investigation. Not even the 	rumors of 	his wife's affairs will stop him from uncovering the truth -- 	a 	conspiracy much larger and more dangerous than he'd imagined.</p>
+   </description>
+   <data>
+      <length>129 minutes</length>
+      <rating>R</rating>
+      <release>2005</release>
+      <language>English</language>
+      <genre>Thriller</genre>
+   </data>
+</movie>
+
+<movie id="m32">
+   <name>Notes on a Scandal </name>
+   <description>
+      <p>When pottery instructor Sheba Hart (Cate Blanchett) dives into an illicit affair with one of her students, she creates a sticky situation that spells turmoil for herself and puts a fellow teacher in a tough spot. St. George faculty member Barbara Covett (Judi Dench) connects with the pretty new art teacher, but things get complicated when Sheba divulges her secret. Bill Nighy and Max Lewis support the two Oscar-nominated .</p>
+   </description>
+   <data>
+      <length>92 minutes</length>
+      <rating>R</rating>
+      <release>2006</release>
+      <language>English</language>
+      <genre>Drama</genre>
+   </data>
+</movie>
+</movies>
