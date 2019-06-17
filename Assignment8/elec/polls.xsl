@@ -55,14 +55,13 @@
 	<xsl:template name="candidate_results">
 		<xsl:param name="totalVotes"/>
 		<xsl:variable name="percentage" select="round((votes div $totalVotes) * 100)"/>
-		
 		<tr>
 			<td>
 				<xsl:value-of select="name"/> (<xsl:value-of select="party"/>)</td>
 			<td class="num">
-				<xsl:value-of select="format-number(votes, '#,###')"/> (<xsl:value-of select="$percentage"/>%)
+				<!-- Note: Chose not to use format-number for percentage because it will get the floor value, which is not desirable.  In addition, the percentage variable is more reusable. -->				
+				<xsl:value-of select="format-number(votes, '#,###')"/> (<xsl:value-of select="$percentage"/>%) 
 			</td>
-			
 			<xsl:call-template name="showBar">
 				<xsl:with-param name="color">
 					<xsl:choose>
