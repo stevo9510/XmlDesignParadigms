@@ -94,6 +94,11 @@
         doors, oak trim. Ready for move in!
       </list:description>
     </list:property>
+  </ag:agent>
+  <ag:agent id="a2142">
+    <ag:name>Lawrence Rao</ag:name>
+    <ag:phone>(414) 555-8580</ag:phone>
+    <ag:email>lkrao@rawlingscompany.com</ag:email>
     <list:property rln="r317082" agent="a2142">
       <list:address>
         <list:street>505 Brandit Road</list:street>
@@ -110,11 +115,6 @@
         can buy with confidence!
       </list:description>
     </list:property>
-  </ag:agent>
-  <ag:agent id="a2142">
-    <ag:name>Lawrence Rao</ag:name>
-    <ag:phone>(414) 555-8580</ag:phone>
-    <ag:email>lkrao@rawlingscompany.com</ag:email>
     <list:property rln="r317085" agent="a2142">
       <list:address>
         <list:street>88 Atkins Avenue</list:street>
