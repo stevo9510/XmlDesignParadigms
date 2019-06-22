@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE League
-[
-	<!ELEMENT League (Team+)>
-	<!ATTLIST League LName ID #REQUIRED>
-
-	<!ELEMENT Team (Team_Name, City, Logo?, Players+)>
-	<!ELEMENT Team_Name (#PCDATA)>
-	<!ELEMENT City (#PCDATA)>
-	
-	<!ELEMENT Logo EMPTY>
-	<!ATTLIST Logo Source CDATA #REQUIRED>
-	
-	<!ELEMENT Players (Player+)>
-	
-	<!ELEMENT Player (#PCDATA)>
-	<!ATTLIST Player Position (PG | C | PF | SG | SF) #REQUIRED>
-	<!ATTLIST Player PPG CDATA #IMPLIED>
-	<!ATTLIST Player RPG CDATA #IMPLIED>
-	<!ATTLIST Player Assists CDATA #IMPLIED>
-]>
+<!DOCTYPE League SYSTEM "League.dtd">
 <League LName="EDL">
 	<Team>
 		<Team_Name>Heat</Team_Name>
@@ -49,5 +30,4 @@
 			<Player Position="PF" RPG="12">Draymond Green</Player>
 		</Players>
 	</Team>
-		
 </League>
