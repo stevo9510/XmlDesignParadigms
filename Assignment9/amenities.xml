@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<amenities>
+   <motel motelID="mot001">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot002">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot003">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot004">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot005">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot006">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot007">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot008">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot009">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot010">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot011">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot012">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot013">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot014">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>no</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot015">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot016">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot017">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot018">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot019">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot020">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>no</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot021">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot022">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot023">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot024">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot025">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot026">
+      <rating>3</rating>
+      <wifi>no</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot027">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot028">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot029">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot030">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>no</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot031">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot032">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot033">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot034">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot035">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot036">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>no</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot037">
+      <rating>3</rating>
+      <wifi>no</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot038">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot039">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot040">
+      <rating>1</rating>
+      <wifi>no</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot041">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot042">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>no</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot043">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot044">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot045">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot046">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot047">
+      <rating>5</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot048">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot049">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot050">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot051">
+      <rating>2</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>no</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot052">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>no</free_breakfast>
+      <gym>yes</gym>
+      <room_service>no</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot053">
+      <rating>4</rating>
+      <wifi>no</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot054">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>no</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot055">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>no</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>yes</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+   <motel motelID="mot056">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot057">
+      <rating>3</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>no</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>no</business_center>
+   </motel>
+   <motel motelID="mot058">
+      <rating>4</rating>
+      <wifi>yes</wifi>
+      <laundry>yes</laundry>
+      <pool>yes</pool>
+      <free_breakfast>yes</free_breakfast>
+      <gym>yes</gym>
+      <room_service>yes</room_service>
+      <pets_allowed>no</pets_allowed>
+      <business_center>yes</business_center>
+   </motel>
+</amenities>

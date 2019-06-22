@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<prices>
+   <motel motelID="mot001">
+      <low>69</low>
+      <median>82</median>
+      <high>95</high>
+   </motel>
+   <motel motelID="mot002">
+      <low>106</low>
+      <median>123</median>
+      <high>141</high>
+   </motel>
+   <motel motelID="mot003">
+      <low>83</low>
+      <median>103</median>
+      <high>124</high>
+   </motel>
+   <motel motelID="mot004">
+      <low>126</low>
+      <median>153</median>
+      <high>181</high>
+   </motel>
+   <motel motelID="mot005">
+      <low>61</low>
+      <median>78</median>
+      <high>95</high>
+   </motel>
+   <motel motelID="mot006">
+      <low>99</low>
+      <median>119</median>
+      <high>140</high>
+   </motel>
+   <motel motelID="mot007">
+      <low>98</low>
+      <median>120</median>
+      <high>142</high>
+   </motel>
+   <motel motelID="mot008">
+      <low>97</low>
+      <median>118</median>
+      <high>140</high>
+   </motel>
+   <motel motelID="mot009">
+      <low>76</low>
+      <median>90</median>
+      <high>105</high>
+   </motel>
+   <motel motelID="mot010">
+      <low>121</low>
+      <median>149</median>
+      <high>178</high>
+   </motel>
+   <motel motelID="mot011">
+      <low>99</low>
+      <median>123</median>
+      <high>147</high>
+   </motel>
+   <motel motelID="mot012">
+      <low>74</low>
+      <median>80</median>
+      <high>86</high>
+   </motel>
+   <motel motelID="mot013">
+      <low>132</low>
+      <median>151</median>
+      <high>171</high>
+   </motel>
+   <motel motelID="mot014">
+      <low>74</low>
+      <median>81</median>
+      <high>89</high>
+   </motel>
+   <motel motelID="mot015">
+      <low>82</low>
+      <median>100</median>
+      <high>118</high>
+   </motel>
+   <motel motelID="mot016">
+      <low>75</low>
+      <median>95</median>
+      <high>115</high>
+   </motel>
+   <motel motelID="mot017">
+      <low>76</low>
+      <median>87</median>
+      <high>98</high>
+   </motel>
+   <motel motelID="mot018">
+      <low>100</low>
+      <median>125</median>
+      <high>150</high>
+   </motel>
+   <motel motelID="mot019">
+      <low>90</low>
+      <median>118</median>
+      <high>147</high>
+   </motel>
+   <motel motelID="mot020">
+      <low>125</low>
+      <median>149</median>
+      <high>174</high>
+   </motel>
+   <motel motelID="mot021">
+      <low>75</low>
+      <median>90</median>
+      <high>106</high>
+   </motel>
+   <motel motelID="mot022">
+      <low>76</low>
+      <median>94</median>
+      <high>112</high>
+   </motel>
+   <motel motelID="mot023">
+      <low>83</low>
+      <median>95</median>
+      <high>107</high>
+   </motel>
+   <motel motelID="mot024">
+      <low>74</low>
+      <median>96</median>
+      <high>118</high>
+   </motel>
+   <motel motelID="mot025">
+      <low>70</low>
+      <median>78</median>
+      <high>86</high>
+   </motel>
+   <motel motelID="mot026">
+      <low>83</low>
+      <median>100</median>
+      <high>117</high>
+   </motel>
+   <motel motelID="mot027">
+      <low>71</low>
+      <median>98</median>
+      <high>125</high>
+   </motel>
+   <motel motelID="mot028">
+      <low>103</low>
+      <median>119</median>
+      <high>135</high>
+   </motel>
+   <motel motelID="mot029">
+      <low>82</low>
+      <median>101</median>
+      <high>121</high>
+   </motel>
+   <motel motelID="mot030">
+      <low>87</low>
+      <median>98</median>
+      <high>110</high>
+   </motel>
+   <motel motelID="mot031">
+      <low>126</low>
+      <median>155</median>
+      <high>185</high>
+   </motel>
+   <motel motelID="mot032">
+      <low>110</low>
+      <median>129</median>
+      <high>148</high>
+   </motel>
+   <motel motelID="mot033">
+      <low>88</low>
+      <median>102</median>
+      <high>116</high>
+   </motel>
+   <motel motelID="mot034">
+      <low>68</low>
+      <median>82</median>
+      <high>96</high>
+   </motel>
+   <motel motelID="mot035">
+      <low>104</low>
+      <median>117</median>
+      <high>131</high>
+   </motel>
+   <motel motelID="mot036">
+      <low>77</low>
+      <median>86</median>
+      <high>96</high>
+   </motel>
+   <motel motelID="mot037">
+      <low>77</low>
+      <median>99</median>
+      <high>122</high>
+   </motel>
+   <motel motelID="mot038">
+      <low>84</low>
+      <median>104</median>
+      <high>124</high>
+   </motel>
+   <motel motelID="mot039">
+      <low>95</low>
+      <median>113</median>
+      <high>131</high>
+   </motel>
+   <motel motelID="mot040">
+      <low>52</low>
+      <median>66</median>
+      <high>81</high>
+   </motel>
+   <motel motelID="mot041">
+      <low>67</low>
+      <median>82</median>
+      <high>97</high>
+   </motel>
+   <motel motelID="mot042">
+      <low>71</low>
+      <median>85</median>
+      <high>99</high>
+   </motel>
+   <motel motelID="mot043">
+      <low>94</low>
+      <median>112</median>
+      <high>131</high>
+   </motel>
+   <motel motelID="mot044">
+      <low>60</low>
+      <median>75</median>
+      <high>90</high>
+   </motel>
+   <motel motelID="mot045">
+      <low>95</low>
+      <median>116</median>
+      <high>137</high>
+   </motel>
+   <motel motelID="mot046">
+      <low>79</low>
+      <median>89</median>
+      <high>100</high>
+   </motel>
+   <motel motelID="mot047">
+      <low>115</low>
+      <median>145</median>
+      <high>176</high>
+   </motel>
+   <motel motelID="mot048">
+      <low>74</low>
+      <median>89</median>
+      <high>105</high>
+   </motel>
+   <motel motelID="mot049">
+      <low>91</low>
+      <median>117</median>
+      <high>143</high>
+   </motel>
+   <motel motelID="mot050">
+      <low>80</low>
+      <median>101</median>
+      <high>123</high>
+   </motel>
+   <motel motelID="mot051">
+      <low>60</low>
+      <median>76</median>
+      <high>93</high>
+   </motel>
+   <motel motelID="mot052">
+      <low>89</low>
+      <median>105</median>
+      <high>121</high>
+   </motel>
+   <motel motelID="mot053">
+      <low>91</low>
+      <median>111</median>
+      <high>131</high>
+   </motel>
+   <motel motelID="mot054">
+      <low>70</low>
+      <median>94</median>
+      <high>119</high>
+   </motel>
+   <motel motelID="mot055">
+      <low>99</low>
+      <median>116</median>
+      <high>134</high>
+   </motel>
+   <motel motelID="mot056">
+      <low>108</low>
+      <median>127</median>
+      <high>146</high>
+   </motel>
+   <motel motelID="mot057">
+      <low>76</low>
+      <median>91</median>
+      <high>106</high>
+   </motel>
+   <motel motelID="mot058">
+      <low>106</low>
+      <median>121</median>
+      <high>137</high>
+   </motel>
+</prices>

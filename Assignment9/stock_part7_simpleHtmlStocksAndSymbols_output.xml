@@ -1,0 +1,19 @@
+<html>
+	<h1>Stock List</h1>
+	<ul>
+		<li>Name: Aluminum Company of America, Symbol: AA</li>
+		<li>Name: Unocal Corporation, Symbol: UCL</li>
+		<li>Name: General Motors Corporation, Symbol: GM</li>
+		<li>Name: Eastman Kodak Company, Symbol: EK</li>
+		<li>Name: Ryder Systems Incorporated, Symbol: R</li>
+		<li>Name: Airborne Freight Corporation, Symbol: ABF</li>
+		<li>Name: Southwest Airlines Corporation, Symbol: LUV</li>
+		<li>Name: Canadian National Railway Corporation, Symbol: CNI</li>
+		<li>Name: Union Pacific Corporation, Symbol: UNP</li>
+		<li>Name: Consolidated Edison Corporation, Symbol: ED</li>
+		<li>Name: American Electrical Power Company, Incorporated, Symbol: AEP</li>
+		<li>Name: PPL Corporation, Symbol: PPL</li>
+		<li>Name: Marathon Oil Corporation, Symbol: MRO</li>
+		<li>Name: Autozone Corporation, Symbol: AZO</li>
+	</ul>
+</html>

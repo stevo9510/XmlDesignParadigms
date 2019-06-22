@@ -1,0 +1,42 @@
+<results>
+	<motel id="mot037" title="Good Sleep Inn" price="77" customerRating="3.22">
+		<contact>
+			<address>964 Sullivan Lane</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-2588</phone>
+			<manager>Michael Grooms</manager>
+		</contact>
+		<amenities>
+			<wifi>no</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot003" title="Ace Motel" price="83" customerRating="3.19">
+		<contact>
+			<address>573 South Kenneth Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-7561</phone>
+			<manager>Marion Portillo</manager>
+		</contact>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+</results>

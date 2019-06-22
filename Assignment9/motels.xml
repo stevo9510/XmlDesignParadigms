@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<motels>
+   <motel motelID="mot001">
+      <title>Alain Inn</title>
+      <address>622 North Merrill Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-6958</phone>
+      <manager>Steven Saenz</manager>
+   </motel>
+   <motel motelID="mot002">
+      <title>Adventure Inn</title>
+      <address>748 Gole Lane</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(801) 555-2304</phone>
+      <manager>Jake Wiggins</manager>
+   </motel>
+   <motel motelID="mot003">
+      <title>Ace Motel</title>
+      <address>573 South Kenneth Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-7561</phone>
+      <manager>Marion Portillo</manager>
+   </motel>
+   <motel motelID="mot004">
+      <title>Viewpoint Inn</title>
+      <address>369 Lorel Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84602</zip>
+      <phone>(385) 555-9061</phone>
+      <manager>Diana Currin</manager>
+   </motel>
+   <motel motelID="mot005">
+      <title>Choice Hotel</title>
+      <address>301 West End Lane</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-5494</phone>
+      <manager>Mary Markus</manager>
+   </motel>
+   <motel motelID="mot006">
+      <title>Big Falls Lodge</title>
+      <address>907 Throop Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(801) 555-6032</phone>
+      <manager>Angela Cornejo</manager>
+   </motel>
+   <motel motelID="mot007">
+      <title>Brown Motel</title>
+      <address>411 Mankato Boulevard</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-9867</phone>
+      <manager>Jeffrey Devine</manager>
+   </motel>
+   <motel motelID="mot008">
+      <title>Markos Motel</title>
+      <address>557 East Kamerling Street</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-4403</phone>
+      <manager>Ralph Blaha</manager>
+   </motel>
+   <motel motelID="mot009">
+      <title>The Dryiad</title>
+      <address>881 Briar Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-2522</phone>
+      <manager>Michele Lawson</manager>
+   </motel>
+   <motel motelID="mot010">
+      <title>Hometown Inn</title>
+      <address>281 Pitney Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-7208</phone>
+      <manager>Cindy Fischer</manager>
+   </motel>
+   <motel motelID="mot011">
+      <title>Hometown Express</title>
+      <address>441 Montgomery Avenue</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-5585</phone>
+      <manager>Omar Moore</manager>
+   </motel>
+   <motel motelID="mot012">
+      <title>Inda Inn</title>
+      <address>543 Laporte Way</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(801) 555-9482</phone>
+      <manager>Janice Ponce</manager>
+   </motel>
+   <motel motelID="mot013">
+      <title>Kozobell Lodge</title>
+      <address>444 Blackhawk Avenue</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-6184</phone>
+      <manager>Angela Morgan</manager>
+   </motel>
+   <motel motelID="mot014">
+      <title>Lace Motel</title>
+      <address>234 5th Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(801) 555-8722</phone>
+      <manager>Mary Richards</manager>
+   </motel>
+   <motel motelID="mot015">
+      <title>Twilight Moten</title>
+      <address>76 George Lane</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-6556</phone>
+      <manager>Anthony Wilson</manager>
+   </motel>
+   <motel motelID="mot016">
+      <title>Rustic Inn</title>
+      <address>421 Roosevelt Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(801) 555-3718</phone>
+      <manager>Christopher Napier</manager>
+   </motel>
+   <motel motelID="mot017">
+      <title>Valley Inn</title>
+      <address>858 North Normal Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-3804</phone>
+      <manager>Donald Montague</manager>
+   </motel>
+   <motel motelID="mot018">
+      <title>Motel 5 Inn</title>
+      <address>753 Riversedge Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(801) 555-4744</phone>
+      <manager>Elizabeth French</manager>
+   </motel>
+   <motel motelID="mot019">
+      <title>Good Day Inn</title>
+      <address>807 Lee Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-8517</phone>
+      <manager>Richard Wayman</manager>
+   </motel>
+   <motel motelID="mot020">
+      <title>Redhorn Lodge</title>
+      <address>735 De Saible Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84602</zip>
+      <phone>(801) 555-9861</phone>
+      <manager>Cora Schaaf</manager>
+   </motel>
+   <motel motelID="mot021">
+      <title>Raleigh Inn</title>
+      <address>389 Clark Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-9341</phone>
+      <manager>Edward Tovar</manager>
+   </motel>
+   <motel motelID="mot022">
+      <title>Blue River Lodge</title>
+      <address>365 East View Park Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(801) 555-4122</phone>
+      <manager>Lindsy Boddy</manager>
+   </motel>
+   <motel motelID="mot023">
+      <title>River Canyon Lodge</title>
+      <address>10 Logan Way</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-6052</phone>
+      <manager>Hilton Wharton</manager>
+   </motel>
+   <motel motelID="mot024">
+      <title>Lakeside Lodge</title>
+      <address>884 Kingston Lane</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-2143</phone>
+      <manager>Rodney Bufkin</manager>
+   </motel>
+   <motel motelID="mot025">
+      <title>Freeway Inn</title>
+      <address>381 Allport Lane</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(801) 555-1086</phone>
+      <manager>Deanna Mcguire</manager>
+   </motel>
+   <motel motelID="mot026">
+      <title>Silver Suites</title>
+      <address>437 Stratford Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-3951</phone>
+      <manager>Sean Reiser</manager>
+   </motel>
+   <motel motelID="mot027">
+      <title>Sleeper Motel</title>
+      <address>905 Eggleston Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-7259</phone>
+      <manager>Mattie Warren</manager>
+   </motel>
+   <motel motelID="mot028">
+      <title>Super Inn</title>
+      <address>343 St Helen Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(801) 555-6924</phone>
+      <manager>David Crowley</manager>
+   </motel>
+   <motel motelID="mot029">
+      <title>Vintage Motel</title>
+      <address>603 South Woodlawn Boulevard</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-6556</phone>
+      <manager>Herbert Lister</manager>
+   </motel>
+   <motel motelID="mot030">
+      <title>Aldus Inn</title>
+      <address>789 Potawatomie Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(801) 555-7498</phone>
+      <manager>Monica Krueger</manager>
+   </motel>
+   <motel motelID="mot031">
+      <title>Mountain View Lodge</title>
+      <address>965 Mary Lane</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-4186</phone>
+      <manager>Adrienne Cox</manager>
+   </motel>
+   <motel motelID="mot032">
+      <title>Causeway Inn</title>
+      <address>72 Oketo Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-7985</phone>
+      <manager>James Dupree</manager>
+   </motel>
+   <motel motelID="mot033">
+      <title>Ledges Inn</title>
+      <address>536 Reilly Lane</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-5991</phone>
+      <manager>Phyllis Carr</manager>
+   </motel>
+   <motel motelID="mot034">
+      <title>Bright Motel</title>
+      <address>639 Dewitt Lane</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(801) 555-8381</phone>
+      <manager>Diane Mcdowell</manager>
+   </motel>
+   <motel motelID="mot035">
+      <title>Big Bear Lodge</title>
+      <address>823 Oconto Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(801) 555-3698</phone>
+      <manager>Regina Harder</manager>
+   </motel>
+   <motel motelID="mot036">
+      <title>Holder Inn</title>
+      <address>361 Kilpatrick Avenue</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(801) 555-9577</phone>
+      <manager>Phillip Hollon</manager>
+   </motel>
+   <motel motelID="mot037">
+      <title>Good Sleep Inn</title>
+      <address>964 Sullivan Lane</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-2588</phone>
+      <manager>Michael Grooms</manager>
+   </motel>
+   <motel motelID="mot038">
+      <title>Jacobs Motel</title>
+      <address>945 Dickens Lane</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-3484</phone>
+      <manager>James Garman</manager>
+   </motel>
+   <motel motelID="mot039">
+      <title>Green Leaft Motel</title>
+      <address>677 Huron Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-9205</phone>
+      <manager>Lawrence Hansell</manager>
+   </motel>
+   <motel motelID="mot040">
+      <title>Happy Day Lodge</title>
+      <address>638 Mackleport Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-1515</phone>
+      <manager>Alex Upchurch</manager>
+   </motel>
+   <motel motelID="mot041">
+      <title>Anasta Inn and Suites</title>
+      <address>709 East Hartwell Way</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-8548</phone>
+      <manager>James Wheeler</manager>
+   </motel>
+   <motel motelID="mot042">
+      <title>Youngston Lodge</title>
+      <address>858 Paris Way</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-5911</phone>
+      <manager>John Hernandez</manager>
+   </motel>
+   <motel motelID="mot043">
+      <title>Dogwood Motel</title>
+      <address>386 Iowa Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-1226</phone>
+      <manager>Victoria Hernandez</manager>
+   </motel>
+   <motel motelID="mot044">
+      <title>Rose Inn</title>
+      <address>794 Illinois Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-3107</phone>
+      <manager>Michael Ziebarth</manager>
+   </motel>
+   <motel motelID="mot045">
+      <title>Woodvale Lodge</title>
+      <address>614 Riverwalk Street</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-8084</phone>
+      <manager>Bradley Glaser</manager>
+   </motel>
+   <motel motelID="mot046">
+      <title>Deerpoint Inn</title>
+      <address>68 Clyde Lane</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-2676</phone>
+      <manager>Aaron Ferguson</manager>
+   </motel>
+   <motel motelID="mot047">
+      <title>Great Leaf Lodge</title>
+      <address>350 Homan Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-3246</phone>
+      <manager>Diana Hatch</manager>
+   </motel>
+   <motel motelID="mot048">
+      <title>Sunrise Inn</title>
+      <address>620 Grant Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-5385</phone>
+      <manager>Gerardo Roan</manager>
+   </motel>
+   <motel motelID="mot049">
+      <title>Redpiont Lodge</title>
+      <address>741 Kilbourn Street</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-9353</phone>
+      <manager>Charles Ceballos</manager>
+   </motel>
+   <motel motelID="mot050">
+      <title>Beartooth Inn</title>
+      <address>542 Riverwalk Avenue</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84602</zip>
+      <phone>(385) 555-6363</phone>
+      <manager>Roberta Simpson</manager>
+   </motel>
+   <motel motelID="mot051">
+      <title>Seedpoint Inn</title>
+      <address>482 7th Way</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-7648</phone>
+      <manager>Mike Barnes</manager>
+   </motel>
+   <motel motelID="mot052">
+      <title>Stillmank Motel</title>
+      <address>336 Garvey Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84602</zip>
+      <phone>(385) 555-1281</phone>
+      <manager>Rick Hirsch</manager>
+   </motel>
+   <motel motelID="mot053">
+      <title>Blue Falls Motel</title>
+      <address>551 Dorchester Street</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-4026</phone>
+      <manager>Roger Rudd</manager>
+   </motel>
+   <motel motelID="mot054">
+      <title>Horserack Inn</title>
+      <address>105 Quincy Avenue</address>
+      <city>Thompson</city>
+      <state>UT</state>
+      <zip>84540</zip>
+      <phone>(385) 555-5505</phone>
+      <manager>William Tolbert</manager>
+   </motel>
+   <motel motelID="mot055">
+      <title>Silverpoint Lodge</title>
+      <address>600 Woodward Avenue</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84602</zip>
+      <phone>(385) 555-4621</phone>
+      <manager>Linda Bell</manager>
+   </motel>
+   <motel motelID="mot056">
+      <title>Dewpoint Inn</title>
+      <address>761 Prospect Way</address>
+      <city>Wellington</city>
+      <state>UT</state>
+      <zip>84542</zip>
+      <phone>(385) 555-7035</phone>
+      <manager>Edward Clark</manager>
+   </motel>
+   <motel motelID="mot057">
+      <title>Hartford Lodge</title>
+      <address>617 Ridgeway Boulevard</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84601</zip>
+      <phone>(385) 555-4544</phone>
+      <manager>Don Johnson</manager>
+   </motel>
+   <motel motelID="mot058">
+      <title>Indy Inn</title>
+      <address>427 Caton Way</address>
+      <city>Provo</city>
+      <state>UT</state>
+      <zip>84604</zip>
+      <phone>(385) 555-3974</phone>
+      <manager>Gloria Simmons</manager>
+   </motel>
+</motels>

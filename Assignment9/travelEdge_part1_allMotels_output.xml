@@ -1,0 +1,1394 @@
+<results>
+	<motel id="mot004" title="Viewpoint Inn">
+		<contact>
+			<address>369 Lorel Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84602</zip>
+			<phone>(385) 555-9061</phone>
+			<manager>Diana Currin</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>3.88</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot020" title="Redhorn Lodge">
+		<contact>
+			<address>735 De Saible Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84602</zip>
+			<phone>(801) 555-9861</phone>
+			<manager>Cora Schaaf</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>4.29</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>no</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot031" title="Mountain View Lodge">
+		<contact>
+			<address>965 Mary Lane</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-4186</phone>
+			<manager>Adrienne Cox</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>4</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot013" title="Kozobell Lodge">
+		<contact>
+			<address>444 Blackhawk Avenue</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-6184</phone>
+			<manager>Angela Morgan</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>3.9</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot010" title="Hometown Inn">
+		<contact>
+			<address>281 Pitney Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-7208</phone>
+			<manager>Cindy Fischer</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>3.54</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot047" title="Great Leaf Lodge">
+		<contact>
+			<address>350 Homan Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-3246</phone>
+			<manager>Diana Hatch</manager>
+		</contact>
+		<class>
+			<rating>5</rating>
+			<avgCustomerRating>4</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot045" title="Woodvale Lodge">
+		<contact>
+			<address>614 Riverwalk Street</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-8084</phone>
+			<manager>Bradley Glaser</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.31</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot028" title="Super Inn">
+		<contact>
+			<address>343 St Helen Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(801) 555-6924</phone>
+			<manager>David Crowley</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot055" title="Silverpoint Lodge">
+		<contact>
+			<address>600 Woodward Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84602</zip>
+			<phone>(385) 555-4621</phone>
+			<manager>Linda Bell</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>2.82</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot049" title="Redpiont Lodge">
+		<contact>
+			<address>741 Kilbourn Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-9353</phone>
+			<manager>Charles Ceballos</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.38</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot018" title="Motel 5 Inn">
+		<contact>
+			<address>753 Riversedge Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(801) 555-4744</phone>
+			<manager>Elizabeth French</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.61</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot008" title="Markos Motel">
+		<contact>
+			<address>557 East Kamerling Street</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-4403</phone>
+			<manager>Ralph Blaha</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.39</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot058" title="Indy Inn">
+		<contact>
+			<address>427 Caton Way</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-3974</phone>
+			<manager>Gloria Simmons</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.77</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot011" title="Hometown Express">
+		<contact>
+			<address>441 Montgomery Avenue</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-5585</phone>
+			<manager>Omar Moore</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.89</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot039" title="Green Leaft Motel">
+		<contact>
+			<address>677 Huron Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-9205</phone>
+			<manager>Lawrence Hansell</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.29</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot019" title="Good Day Inn">
+		<contact>
+			<address>807 Lee Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-8517</phone>
+			<manager>Richard Wayman</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.41</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot043" title="Dogwood Motel">
+		<contact>
+			<address>386 Iowa Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-1226</phone>
+			<manager>Victoria Hernandez</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.45</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot056" title="Dewpoint Inn">
+		<contact>
+			<address>761 Prospect Way</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-7035</phone>
+			<manager>Edward Clark</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>2.9</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot032" title="Causeway Inn">
+		<contact>
+			<address>72 Oketo Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-7985</phone>
+			<manager>James Dupree</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.14</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot007" title="Brown Motel">
+		<contact>
+			<address>411 Mankato Boulevard</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-9867</phone>
+			<manager>Jeffrey Devine</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.56</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot053" title="Blue Falls Motel">
+		<contact>
+			<address>551 Dorchester Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-4026</phone>
+			<manager>Roger Rudd</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.58</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>no</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot006" title="Big Falls Lodge">
+		<contact>
+			<address>907 Throop Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(801) 555-6032</phone>
+			<manager>Angela Cornejo</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>2.75</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot035" title="Big Bear Lodge">
+		<contact>
+			<address>823 Oconto Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(801) 555-3698</phone>
+			<manager>Regina Harder</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>2.75</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot002" title="Adventure Inn">
+		<contact>
+			<address>748 Gole Lane</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(801) 555-2304</phone>
+			<manager>Jake Wiggins</manager>
+		</contact>
+		<class>
+			<rating>4</rating>
+			<avgCustomerRating>3.71</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot029" title="Vintage Motel">
+		<contact>
+			<address>603 South Woodlawn Boulevard</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-6556</phone>
+			<manager>Herbert Lister</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.2</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot015" title="Twilight Moten">
+		<contact>
+			<address>76 George Lane</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-6556</phone>
+			<manager>Anthony Wilson</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.1</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot009" title="The Dryiad">
+		<contact>
+			<address>881 Briar Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-2522</phone>
+			<manager>Michele Lawson</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.86</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot052" title="Stillmank Motel">
+		<contact>
+			<address>336 Garvey Avenue</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84602</zip>
+			<phone>(385) 555-1281</phone>
+			<manager>Rick Hirsch</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.59</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>no</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot027" title="Sleeper Motel">
+		<contact>
+			<address>905 Eggleston Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-7259</phone>
+			<manager>Mattie Warren</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.92</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot026" title="Silver Suites">
+		<contact>
+			<address>437 Stratford Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-3951</phone>
+			<manager>Sean Reiser</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.81</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>no</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot016" title="Rustic Inn">
+		<contact>
+			<address>421 Roosevelt Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(801) 555-3718</phone>
+			<manager>Christopher Napier</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>1.91</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot023" title="River Canyon Lodge">
+		<contact>
+			<address>10 Logan Way</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-6052</phone>
+			<manager>Hilton Wharton</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.5</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot021" title="Raleigh Inn">
+		<contact>
+			<address>389 Clark Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-9341</phone>
+			<manager>Edward Tovar</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.2</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot033" title="Ledges Inn">
+		<contact>
+			<address>536 Reilly Lane</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-5991</phone>
+			<manager>Phyllis Carr</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.5</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot024" title="Lakeside Lodge">
+		<contact>
+			<address>884 Kingston Lane</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-2143</phone>
+			<manager>Rodney Bufkin</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.91</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot038" title="Jacobs Motel">
+		<contact>
+			<address>945 Dickens Lane</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-3484</phone>
+			<manager>James Garman</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.36</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot054" title="Horserack Inn">
+		<contact>
+			<address>105 Quincy Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-5505</phone>
+			<manager>William Tolbert</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.38</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot057" title="Hartford Lodge">
+		<contact>
+			<address>617 Ridgeway Boulevard</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-4544</phone>
+			<manager>Don Johnson</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.82</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot037" title="Good Sleep Inn">
+		<contact>
+			<address>964 Sullivan Lane</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-2588</phone>
+			<manager>Michael Grooms</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.22</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>no</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot022" title="Blue River Lodge">
+		<contact>
+			<address>365 East View Park Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(801) 555-4122</phone>
+			<manager>Lindsy Boddy</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.13</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot050" title="Beartooth Inn">
+		<contact>
+			<address>542 Riverwalk Avenue</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84602</zip>
+			<phone>(385) 555-6363</phone>
+			<manager>Roberta Simpson</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.47</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot030" title="Aldus Inn">
+		<contact>
+			<address>789 Potawatomie Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(801) 555-7498</phone>
+			<manager>Monica Krueger</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>2.06</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>no</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot003" title="Ace Motel">
+		<contact>
+			<address>573 South Kenneth Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-7561</phone>
+			<manager>Marion Portillo</manager>
+		</contact>
+		<class>
+			<rating>3</rating>
+			<avgCustomerRating>3.19</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot042" title="Youngston Lodge">
+		<contact>
+			<address>858 Paris Way</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-5911</phone>
+			<manager>John Hernandez</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.29</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>no</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot017" title="Valley Inn">
+		<contact>
+			<address>858 North Normal Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(385) 555-3804</phone>
+			<manager>Donald Montague</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.11</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot048" title="Sunrise Inn">
+		<contact>
+			<address>620 Grant Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-5385</phone>
+			<manager>Gerardo Roan</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>1.87</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot051" title="Seedpoint Inn">
+		<contact>
+			<address>482 7th Way</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(385) 555-7648</phone>
+			<manager>Mike Barnes</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.56</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>no</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot044" title="Rose Inn">
+		<contact>
+			<address>794 Illinois Avenue</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-3107</phone>
+			<manager>Michael Ziebarth</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>1.64</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot014" title="Lace Motel">
+		<contact>
+			<address>234 5th Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(801) 555-8722</phone>
+			<manager>Mary Richards</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>1.89</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>no</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>no</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot012" title="Inda Inn">
+		<contact>
+			<address>543 Laporte Way</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(801) 555-9482</phone>
+			<manager>Janice Ponce</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.4</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot036" title="Holder Inn">
+		<contact>
+			<address>361 Kilpatrick Avenue</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(801) 555-9577</phone>
+			<manager>Phillip Hollon</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.2</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>no</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot025" title="Freeway Inn">
+		<contact>
+			<address>381 Allport Lane</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(801) 555-1086</phone>
+			<manager>Deanna Mcguire</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>1.89</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>no</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot046" title="Deerpoint Inn">
+		<contact>
+			<address>68 Clyde Lane</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-2676</phone>
+			<manager>Aaron Ferguson</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.12</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot005" title="Choice Hotel">
+		<contact>
+			<address>301 West End Lane</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-5494</phone>
+			<manager>Mary Markus</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.81</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot034" title="Bright Motel">
+		<contact>
+			<address>639 Dewitt Lane</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84542</zip>
+			<phone>(801) 555-8381</phone>
+			<manager>Diane Mcdowell</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>1.86</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot041" title="Anasta Inn and Suites">
+		<contact>
+			<address>709 East Hartwell Way</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-8548</phone>
+			<manager>James Wheeler</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.53</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>no</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot001" title="Alain Inn">
+		<contact>
+			<address>622 North Merrill Street</address>
+			<city>Provo</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-6958</phone>
+			<manager>Steven Saenz</manager>
+		</contact>
+		<class>
+			<rating>2</rating>
+			<avgCustomerRating>2.67</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot040" title="Happy Day Lodge">
+		<contact>
+			<address>638 Mackleport Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-1515</phone>
+			<manager>Alex Upchurch</manager>
+		</contact>
+		<class>
+			<rating>1</rating>
+			<avgCustomerRating>1.83</avgCustomerRating>
+		</class>
+		<amenities>
+			<wifi>no</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>no</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>no</business_center>
+		</amenities>
+	</motel>
+</results>

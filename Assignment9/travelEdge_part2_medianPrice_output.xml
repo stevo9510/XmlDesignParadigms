@@ -1,0 +1,62 @@
+<results>
+	<motel id="mot045" title="Woodvale Lodge" price="116" rating="4">
+		<contact>
+			<address>614 Riverwalk Street</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84601</zip>
+			<phone>(385) 555-8084</phone>
+			<manager>Bradley Glaser</manager>
+		</contact>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>no</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot008" title="Markos Motel" price="118" rating="4">
+		<contact>
+			<address>557 East Kamerling Street</address>
+			<city>Wellington</city>
+			<state>UT</state>
+			<zip>84604</zip>
+			<phone>(385) 555-4403</phone>
+			<manager>Ralph Blaha</manager>
+		</contact>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>yes</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+	<motel id="mot028" title="Super Inn" price="119" rating="4">
+		<contact>
+			<address>343 St Helen Street</address>
+			<city>Thompson</city>
+			<state>UT</state>
+			<zip>84540</zip>
+			<phone>(801) 555-6924</phone>
+			<manager>David Crowley</manager>
+		</contact>
+		<amenities>
+			<wifi>yes</wifi>
+			<laundry>yes</laundry>
+			<pool>yes</pool>
+			<free_breakfast>yes</free_breakfast>
+			<gym>yes</gym>
+			<room_service>yes</room_service>
+			<pets_allowed>no</pets_allowed>
+			<business_center>yes</business_center>
+		</amenities>
+	</motel>
+</results>
