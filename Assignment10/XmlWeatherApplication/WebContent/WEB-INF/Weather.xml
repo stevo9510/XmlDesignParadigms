@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE WEATHER SYSTEM "Weather.dtd"> -->
+<WEATHER>
+	<CITY NAME="Hong Kong">
+		<HI>87</HI>
+		<LOW>78</LOW>
+		<DESCRIPTION>Partly sunny.</DESCRIPTION>
+		<ICON VALUE="PARTLYSUNNY"/>
+	</CITY>
+	<CITY NAME="London">
+		<HI>65</HI>
+		<LOW>60</LOW>
+		<DESCRIPTION>Showers throughout the day.</DESCRIPTION>
+		<ICON VALUE="RAIN"/>
+	</CITY>
+	<CITY NAME="New York">
+		<HI>78</HI>
+		<LOW>67</LOW>
+		<DESCRIPTION>Sunny, hot and humid.</DESCRIPTION>
+		<ICON VALUE="SUNNY"/>
+	</CITY>
+	<CITY NAME="San Fransisco">
+		<HI>79</HI>
+		<LOW>58</LOW>
+		<DESCRIPTION>Partly cloudy.</DESCRIPTION>
+		<ICON VALUE="PARTLYCLOUDY"/>	
+	</CITY>
+		<CITY NAME="Seattle">
+		<HI>79</HI>
+		<LOW>58</LOW>
+		<DESCRIPTION>Raining.  Again.</DESCRIPTION>
+		<ICON VALUE="RAIN"/>	
+	</CITY>
+</WEATHER>

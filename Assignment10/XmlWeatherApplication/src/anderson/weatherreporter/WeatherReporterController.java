@@ -1,9 +1,11 @@
 package anderson.weatherreporter;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -46,12 +48,16 @@ public class WeatherReporterController extends HttpServlet {
 	 * @throws ServletException
 	 * @throws IOException
 	 */
-	private void doRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-		List<WeatherCity> cities = new ArrayList<WeatherCity>();
-		cities.add(new WeatherCity("foo", "bar", "go", "yo", "sup"));
-		cities.add(new WeatherCity("abc", "def", "fgh", "ijk", "lmn"));
-		
-		request.setAttribute("weatherCities", cities);
+	private void doRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{	
+ 
+        //Create the parser instance
+        WeatherXmlParser parser = new WeatherXmlParser();
+        
+        //Parse the file
+        ServletContext context = getServletContext();
+        ArrayList<WeatherCity> weatherCities = parser.parseXml(context.getResourceAsStream("/WEB-INF/Weather.xml"));
+
+		request.setAttribute("weatherCities", weatherCities);
 		
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WeatherReporter.jsp");
 		dispatcher.forward(request, response);

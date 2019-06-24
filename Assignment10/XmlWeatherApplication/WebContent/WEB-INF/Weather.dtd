@@ -1,0 +1,15 @@
+<!--  Weather DTD for Cities				-->
+
+<!ELEMENT WEATHER (CITY)+>
+
+<!--  CITY Element has HI, LOW, DESCRIPTION, and ICON Elements  -->
+<!--  and a required NAME Attribute								-->
+<!ELEMENT CITY (HI, LOW, DESCRIPTION, ICON)>
+<!ATTLIST CITY NAME CDATA #REQUIRED>
+<!ELEMENT HI (#PCDATA)>
+<!ELEMENT LOW (#PCDATA)>
+<!ELEMENT DESCRIPTION (#PCDATA)>
+<!ELEMENT ICON EMPTY>
+
+<!--  The ICON VALUE Attribute is restricted to one of six options  -->
+<!ATTLIST ICON VALUE (SUNNY|PARTLYSUNNY|PARTLYCLOUDY|CLOUDY|RAIN|SNOW) #REQUIRED>
