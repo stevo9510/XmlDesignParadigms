@@ -50,12 +50,12 @@
 	</xs:element>
 	<xs:simpleType name="latitudeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="([12345678]?\d|90)([012345]\d)[NS]?"/>
+			<xs:pattern value="([12345678]?\d[012345]\d|9000)[NS]?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="longitudeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(1[0-7]\d|\d?\d|180)([012345]\d)[EW]?"/>
+			<xs:pattern value="(1[0-7]\d[012345]\d|\d?\d[012345]\d|18000)[EW]?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:element name="personOnBoard">
@@ -68,7 +68,7 @@
 	</xs:element>
 	<xs:simpleType name="segmentType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Za-z\d \+ \* \. ' / &#8853;]{0,1000}"/>
+			<xs:pattern value="[A-Za-z\d \+ \* \. / &#8853;]{0,1000}"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<xs:simpleType name="categoryType">

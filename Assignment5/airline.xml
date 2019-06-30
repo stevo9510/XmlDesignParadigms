@@ -146,16 +146,25 @@ ee f;fdsaf;3!@313
 		4 digit latitude (degrees minutes) plus optional N or S.  Latitude degrees is a number between 1-90.  Minutes is a number between 00-59. 
 		The Format is in DDMM, but the MM portion is required to be two digits (so 05 for 5 minutes).  The Degrees portion (DD) could be a single-digit degree if applicable (cannot start with a 0).  
 		This prevents ambiguity between what's degrees and minutes.  e.g. 513N would be ambiguous because you wouldn't know if it was 51 degrees 3 minutes vs. 5 degrees 13 minutes.
+			
+		If the degrees are 90, then there cannot be a minute value (it must be 00) since 90 degrees is the max.
 	-->
-	<latitude>9059N</latitude> 
+	<latitude>8959N</latitude> 
 	
 	<!-- 
-		5 digit longitude (degrees minutes) plus optional E or W done.  Latitude degrees is a number between 1-90.  Minutes is a number between 00-59. 
-		The Format is in DDMM, but the MM portion is required to be two digits (so 05 for 5 minutes).  The Degrees portion (DD) could be a single-digit degree if applicable (cannot start with a 0).  
-		This prevents ambiguity between what's degrees and minutes.  e.g. 513N would be ambiguous because you wouldn't know if it was 51 degrees 3 minutes vs. 5 degrees 13 minutes.
+		5 digit longitude (degrees minutes) plus optional E or W done.  Longitude degrees is a number between 1-180.  Minutes is a number between 00-59. 
+		The Format is in DDDMM, but the MM portion is required to be two digits (so 05 for 5 minutes).  The Degrees portion (DDD) could be a single-digit or two-digit degree if applicable (cannot start with a 0).  
+		This prevents ambiguity between what's degrees and minutes.  e.g. 513E would be ambiguous because you wouldn't know if it was 51 degrees 3 minutes vs. 5 degrees 13 minutes.
+		
+		If the degrees are 180, then there cannot be a minute value (it must be 00) since 180 degrees is the max.
 	-->
-	<longitude>101E</longitude> 
-	<personOnBoard>1</personOnBoard> <!-- Number of persons on board; between 1 and 999 done -->
-	<segment>/ + * . overcast 0 1 3213 ⊕ &#8853;</segment> <!-- A string of max length 1000 containing a valid protected segment. Valid characters are any letter or digit, plus '/', '+', '*', '.', ' ', and the overcast symbol. -->
-	<category>H</category> <!-- A value indicating the wake tubulence category of an aircraft.  Can be (L or M or H or J) done -->
+	<longitude>7939W</longitude> 
+	
+	<!-- Number of persons on board; a number between 1 and 999 -->
+	<personOnBoard>1</personOnBoard> 
+	<!-- A string of max length 1000 containing a valid protected segment. Valid characters are any letter (capital or not) or digit, plus '/', '+', '*', '.', ' ' (interpretted as a space, single quote omitted), and the overcast ⊕ symbol.  Single quotes are not permitted.  -->
+	<segment>/ + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk Eawfojwea Fpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ d1213123 fadsf dsaf dsaf  sfkdsafk dsakf kdsafk dsafkodsa kfoeawkf eawof d  </segment> 
+
+	<!-- A value indicating the wake tubulence category of an aircraft.  Can be (L or M or H or J).  Cannot be empty.  Must be capital letter. -->
+	<category>H</category> 
 </Message>
