@@ -17,10 +17,9 @@
 	</xs:simpleType>
 	<xs:simpleType name="aircraftAddressType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-F0-9]{6}"/>
+			<xs:pattern value="[A-Fa-f0-9]{6}"/>
 		</xs:restriction>
 	</xs:simpleType>
-	
 	<xs:simpleType name="aircraftSizeType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="H"/>
@@ -28,56 +27,50 @@
 			<xs:enumeration value=""/>
 		</xs:restriction>
 	</xs:simpleType>
-	
 	<xs:simpleType name="altitudeType">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="\d{2,3}"/>
 		</xs:restriction>
 	</xs:simpleType>
-	
 	<xs:simpleType name="beaconCodeType">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="[0-7]{4}|FFFF"/>
 		</xs:restriction>
 	</xs:simpleType>
-	
 	<xs:element name="comments">
 		<xs:simpleType>
 			<xs:restriction base="xs:string">
 				<xs:minLength value="1"/>
 				<xs:maxLength value="3000"/>
 				<xs:whiteSpace value="preserve"/>
+				<!-- If this was not free form, and we wanted to restrict to only alpha numeric characters only, the minLength/maxLength/whitespace lines above can be removed with the following: -->
+				<!--<xs:pattern value="[a-zA-Z0-9 ]{1,3000}"/>-->
 			</xs:restriction>
 		</xs:simpleType>
 	</xs:element>
-	
 	<xs:simpleType name="latitudeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="\d{4}[NS]?"/>
+			<xs:pattern value="([12345678]?\d|90)([012345]\d)[NS]?"/>
 		</xs:restriction>
 	</xs:simpleType>
-	
 	<xs:simpleType name="longitudeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="\d{4}[EW]?"/>
+			<xs:pattern value="(1[0-7]\d|\d?\d|180)([012345]\d)[EW]?"/>
 		</xs:restriction>
-	</xs:simpleType>	
-	
+	</xs:simpleType>
 	<xs:element name="personOnBoard">
-	  <xs:simpleType>
-		<xs:restriction base="xs:integer">
-		  <xs:minInclusive value="1"/>
-		  <xs:maxInclusive value="999"/>
-		</xs:restriction>
-	  </xs:simpleType>
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:minInclusive value="1"/>
+				<xs:maxInclusive value="999"/>
+			</xs:restriction>
+		</xs:simpleType>
 	</xs:element>
-	
 	<xs:simpleType name="segmentType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="[A-Za-z\d \+ \* \. ' /]{0,1000}"/>
+			<xs:pattern value="[A-Za-z\d \+ \* \. ' / &#8853;]{0,1000}"/>
 		</xs:restriction>
-	</xs:simpleType>	
-	
+	</xs:simpleType>
 	<xs:simpleType name="categoryType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="L"/>
@@ -86,7 +79,6 @@
 			<xs:enumeration value="J"/>
 		</xs:restriction>
 	</xs:simpleType>
-		
 	<xs:element name="Message">
 		<xs:complexType>
 			<xs:sequence>
