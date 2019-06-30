@@ -13,10 +13,9 @@
 			<xs:enumeration value="Bebop"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<!-- TODO: Does this have to be limited to {24}:{60}:{60}? -->
+	<!-- Limited to {23}:{59}:{59} -->
 	<xs:simpleType name="lengthType">
 		<xs:restriction base="xs:string">
-			<!--<xs:pattern value="\d{2}:\d{2}:\d{2}"/>-->
 			<xs:pattern value="([01]\d|2[0123]):([012345]\d):([012345]\d)"/>
 		</xs:restriction>
 	</xs:simpleType>
@@ -40,13 +39,6 @@
 			<xs:attribute ref="albumID" use="required"/>
 		</xs:complexType>
 	</xs:element>
-	<!-- TODO: Do these have to be not-empty. https://stackoverflow.com/a/12829446 -->
-<!-- Change type to NotEmptyString if so	
-	<xsd:simpleType name="NonEmptyString">
-		<xsd:restriction base="xs:string">
-		    <xs:pattern value="\S+"/>
-		</xsd:restriction>
-	</xsd:simpleType>-->
 	<xs:element name="title" type="xs:string"/>
 	<xs:element name="artist" type="xs:string"/>
 	<xs:attribute name="length" type="lengthType"/>
