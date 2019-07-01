@@ -4,10 +4,20 @@
 		<title>Foo</title>
 		<artist>Bar</artist>
 		<artist>Baz</artist>
+		<artist></artist>
 		<tracks length="12:00:22">
 			<track length="00:22:11">First</track>
 			<track length="23:15:11">Second</track>
 			<track length="02:59:23">Third</track>
+			<track length="00:00:00"></track>
+		</tracks>
+	</album>
+	<album category="Modern" albumID="JW3333">
+		<title>Meteora</title>
+		<artist>Linkin Park</artist>
+		<tracks>
+			<track>No One's Listening</track>
+			<track length="00:03:00">Numb</track>
 		</tracks>
 	</album>
 </inventory>

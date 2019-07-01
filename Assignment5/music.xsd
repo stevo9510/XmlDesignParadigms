@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<!-- Define Types Upfront -->
+	
+	<!-- Album ID number in the form JW#### where is # is a digit.  I.e. JW followed by 4 digits -->
 	<xs:simpleType name="albumIdType">
 		<xs:restriction base="xs:ID">
 			<xs:pattern value="JW\d{4}"/>
 		</xs:restriction>
 	</xs:simpleType>
+	
+	<!-- The album category (New Orleans, Swing, Modern, Bebop) --> 
 	<xs:simpleType name="categoryType">
 		<xs:restriction base="xs:string">
 			<xs:enumeration value="New Orleans"/>
@@ -13,14 +18,20 @@
 			<xs:enumeration value="Bebop"/>
 		</xs:restriction>
 	</xs:simpleType>
-	<!-- Limited to {23}:{59}:{59} -->
+	
+	<!-- Length Type, limited to format of (23):(59):(59) -->
 	<xs:simpleType name="lengthType">
 		<xs:restriction base="xs:string">
 			<xs:pattern value="([01]\d|2[0123]):([012345]\d):([012345]\d)"/>
 		</xs:restriction>
 	</xs:simpleType>
+	
+	<!-- Define All Attributes --> 
 	<xs:attribute name="albumID" type="albumIdType"/>
 	<xs:attribute name="category" type="categoryType"/>
+	<xs:attribute name="length" type="lengthType"/>
+
+	<!-- Root Element.  Contains one or more albums -->
 	<xs:element name="inventory">
 		<xs:complexType>
 			<xs:sequence>
@@ -28,6 +39,8 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	
+	<!-- Album element, stores information about each album.  Contains one or more artist, and category/albumID attributes -->
 	<xs:element name="album">
 		<xs:complexType>
 			<xs:sequence>
@@ -39,9 +52,12 @@
 			<xs:attribute ref="albumID" use="required"/>
 		</xs:complexType>
 	</xs:element>
+	
+	<!-- Title and artist elements.  These can contain empty/whitespace per professor -->
 	<xs:element name="title" type="xs:string"/>
 	<xs:element name="artist" type="xs:string"/>
-	<xs:attribute name="length" type="lengthType"/>
+	
+	<!-- Tracks element that contains one or more track elements and an optional length attribute -->
 	<xs:element name="tracks">
 		<xs:complexType>
 			<xs:sequence>
@@ -50,6 +66,8 @@
 			<xs:attribute ref="length" use="optional"/>
 		</xs:complexType>
 	</xs:element>
+	
+	<!-- Track element that contains a optional length attribute. Element contains name of the individual album track. -->
 	<xs:element name="track">
 		<xs:complexType>
 			<xs:simpleContent>

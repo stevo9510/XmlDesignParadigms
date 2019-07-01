@@ -162,9 +162,10 @@ ee f;fdsaf;3!@313
 	
 	<!-- Number of persons on board; a number between 1 and 999 -->
 	<personOnBoard>1</personOnBoard> 
+	
 	<!-- A string of max length 1000 containing a valid protected segment. Valid characters are any letter (capital or not) or digit, plus '/', '+', '*', '.', ' ' (interpretted as a space, single quote omitted), and the overcast ⊕ symbol.  Single quotes are not permitted.  -->
 	<segment>/ + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk Eawfojwea Fpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ &#8853; / + * . f asf aweofk eawfojwea jpofeawf eawf overcast 0 1 3213 ⊕ d1213123 fadsf dsaf dsaf  sfkdsafk dsakf kdsafk dsafkodsa kfoeawkf eawof d  </segment> 
 
 	<!-- A value indicating the wake tubulence category of an aircraft.  Can be (L or M or H or J).  Cannot be empty.  Must be capital letter. -->
-	<category>H</category> 
+	<category>M</category> 
 </Message>
