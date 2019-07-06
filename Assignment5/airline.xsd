@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-	<!-- Identifier: 10-character alphanumeric identifier.  Assumption is that this cannot start with a numeric character (since that is a restriction of the 	xs:ID type) -->	
+	<!-- Identifier: 10-character alphanumeric identifier.  Assumption is that this cannot start with a numeric character (since that is a restriction of the 	xs:ID type) -->
 	<xs:simpleType name="gufiType">
 		<xs:restriction base="xs:ID">
 			<xs:pattern value="[A-Za-z0-9]{10}"/>
@@ -79,7 +79,7 @@
 	-->
 	<xs:simpleType name="longitudeType">
 		<xs:restriction base="xs:string">
-			<xs:pattern value="(1[0-7]\d[012345]\d|\d?\d[012345]\d|18000)[EW]?"/>
+			<xs:pattern value="(1[0-7]\d[012345]\d|[1-9]?\d[012345]\d|18000)[EW]?"/>
 		</xs:restriction>
 	</xs:simpleType>
 	<!-- Number of persons on board; a number between 1 and 999 -->

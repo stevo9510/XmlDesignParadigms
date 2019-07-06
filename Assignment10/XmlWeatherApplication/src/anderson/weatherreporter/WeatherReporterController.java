@@ -1,7 +1,16 @@
+/** 
+ * Steven Anderson
+ * XML Design Patterns
+ * Assignment 10
+ * 
+ * WeatherReporterController.java
+ *   This is the entry-point servlet that handles web requests to index page. 
+ *   Will get resources to route to parser and bind parsed model data to .jsp page. 
+ */
+
 package anderson.weatherreporter;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 
 import javax.servlet.RequestDispatcher;
@@ -52,10 +61,14 @@ public class WeatherReporterController extends HttpServlet {
  
         //Create the parser instance
         WeatherXmlParser parser = new WeatherXmlParser();
-        
-        //Parse the file
+        	
+        // Get Input Sources
         ServletContext context = getServletContext();
-        ArrayList<WeatherCity> weatherCities = parser.parseXml(context.getResourceAsStream("/WEB-INF/Weather.xml"));
+        InputStream weatherXML = context.getResourceAsStream("/WEB-INF/Weather.xml");
+        InputStream weatherDTD = context.getResourceAsStream("/WEB-INF/Weather.dtd");
+       
+        //Parse the file
+        ArrayList<WeatherCity> weatherCities = parser.parseXml(weatherXML, weatherDTD);
 
 		request.setAttribute("weatherCities", weatherCities);
 		

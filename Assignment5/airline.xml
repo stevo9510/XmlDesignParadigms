@@ -158,7 +158,7 @@ ee f;fdsaf;3!@313
 		
 		If the degrees are 180, then there cannot be a minute value (it must be 00) since 180 degrees is the max.
 	-->
-	<longitude>7939W</longitude> 
+	<longitude>1925W</longitude> 
 	
 	<!-- Number of persons on board; a number between 1 and 999 -->
 	<personOnBoard>1</personOnBoard> 

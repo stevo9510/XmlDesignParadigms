@@ -1,3 +1,12 @@
+/** 
+ * Steven Anderson
+ * XML Design Patterns
+ * Assignment 10
+ * 
+ * WeatherCity.java
+ *   Represents a Weather City data model/POJO object.  Contains information about the weather of a particular city.
+ */
+
 package anderson.weatherreporter;
 
 public class WeatherCity {

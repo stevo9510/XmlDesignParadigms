@@ -1,48 +1,88 @@
+/** 
+ * Steven Anderson
+ * XML Design Patterns
+ * Assignment 10
+ * 
+ * WeatherXmlParser.java
+ *   Creates a SAX Parser using WeatherParserHandler and parses a provided XML Input document.
+ */
+
 package anderson.weatherreporter;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+
+import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.XMLReaderFactory;
 
 public class WeatherXmlParser {
-	public ArrayList<WeatherCity> parseXml(InputStream in)
+	public ArrayList<WeatherCity> parseXml(InputStream xmlIn, InputStream dtdIn)
     {
         //Create a empty link of users initially
         ArrayList<WeatherCity> weatherCities = null;
         try
         {
             //Create default handler instance
-            WeatherParserHandler handler = new WeatherParserHandler();
+            WeatherParserHandler weatherParserHandler = new WeatherParserHandler();
  
-            //Create parser from factory
-            XMLReader parser = XMLReaderFactory.createXMLReader();
+            // Setup Factory to support DTD Validation
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            factory.setValidating(true); 
+            factory.setNamespaceAware(true);
+                        
+            // Create parser from factory, and get reader
+            SAXParser parser = factory.newSAXParser();
+            final XMLReader xmlReader = parser.getXMLReader();
             
-            parser.setDTDHandler(handler);
+            // Setup Resolver for Fetching DTD file and Set Handler
+            xmlReader.setEntityResolver(new DtdInputStreamEntityResolver(dtdIn));
+            xmlReader.setDTDHandler(weatherParserHandler);
+            xmlReader.setContentHandler(weatherParserHandler);
+            xmlReader.setErrorHandler(weatherParserHandler);
             
-            //Register handler with parser
-            parser.setContentHandler(handler);
+            // Parse the Input XML
+            xmlReader.parse(new InputSource(xmlIn));
  
-            //Create an input source from the XML input stream
-            InputSource source = new InputSource(in);
- 
-            //parse the document
-            parser.parse(source);
- 
-            //populate the parsed users list in above created empty list; You can return from here also.
-            weatherCities = handler.getWeatherCities();
- 
+            // Get the Parsed Data (Weather Cities)
+            weatherCities = weatherParserHandler.getWeatherCities();
+
         } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
- 
-        }
+			e.printStackTrace();
+		} catch (ParserConfigurationException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
         return weatherCities;
     }
+	
+	/**
+	 * Entity Resolver that Takes in an DTD Input Stream to use when resolving DTD Entity
+	 * This is used to prevent FileNotFound IO exception against DTD file because it does not necessarily search for the DTD
+	 * relative to the XML document location.
+	 */
+	private class DtdInputStreamEntityResolver implements EntityResolver {
+
+		private InputStream dtdInputStream;
+		
+		public DtdInputStreamEntityResolver(InputStream dtdInputStream) {
+			this.dtdInputStream = dtdInputStream;
+		}
+		
+		@Override
+		public InputSource resolveEntity(String publicId, String systemId) throws SAXException, IOException {
+	        if (systemId.contains(".dtd")) {
+	            return new InputSource(dtdInputStream);
+	        } else {
+	            return null;
+	        }		
+        }
+	}
 }

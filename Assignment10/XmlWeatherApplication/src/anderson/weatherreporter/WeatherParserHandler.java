@@ -1,9 +1,19 @@
+/** 
+ * Steven Anderson
+ * XML Design Patterns
+ * Assignment 10
+ * 
+ * WeatherParserHandler.java
+ *   Handler used to parse standard Weather XML input document and populate a collection of WeatherCity objects.
+ */
+
 package anderson.weatherreporter;
 
 import java.util.ArrayList;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class WeatherParserHandler extends DefaultHandler {
@@ -27,17 +37,7 @@ public class WeatherParserHandler extends DefaultHandler {
     {
         return weatherCities;
     }
-   
-    public void startDocument() throws SAXException
-    {
-        //System.out.println("start of the document   : ");
-    }
- 
-    public void endDocument() throws SAXException
-    {
-        //System.out.println("end of the document document     : ");
-    }
- 
+    
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException
     {
         //Push it in element stack
@@ -109,4 +109,11 @@ public class WeatherParserHandler extends DefaultHandler {
     		break;
     	}
     }  
+    
+    // Log error that occurs when parsing, e.g. DTD validation.  
+    // Just writes to System.out now, but ideally this would write to an actual log file of some sort 
+    public void error(SAXParseException saxException) {
+    	System.out.println(saxException.getMessage());
+    }
+    
 }
